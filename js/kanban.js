@@ -16,6 +16,8 @@ add_btn.addEventListener('click', () => {
 });
 
 const create_item = () => {
+  let item = document.createElement("div");
+  item.classList.add("class:item");
 };
 
 document.querySelectorAll('.drop').forEach(element => {
